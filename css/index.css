@@ -230,7 +230,7 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home {
     padding: 0 5%;
   }
@@ -339,9 +339,9 @@ img {
   height: 40px;
   background: #17A2B8;
   color: #FFFFFF;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 1.4rem;
-  border: 2px solid #C0C0C0;
+  border: 2px solid #8d8d8d;
   display: flex;
   justify-content: center;
   align-items: center;
