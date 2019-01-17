@@ -4,12 +4,27 @@
     height: 70px;
     border-bottom: @border;
     .flex();
+    @media @mobile {
+        height: 100px;
+     }
+
     .container.nav {
         .flex(space-between);
+
+        @media @mobile {
+            padding-top: 10px;
+            height: 100%;
+            .flex(space-around, center, column);
+         }
         
         .menu {
             width: 40%;
             .flex(space-between);
+
+            @media @mobile {
+                .flex(space-around);
+                width: 100%;
+             }
 
             a {
                 text-decoration: none;
@@ -17,6 +32,9 @@
                 font-size: @nav-items;
             }
         }
+
+        
     }
     
+   
 }
