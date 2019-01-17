@@ -258,3 +258,16 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .btn {
+  width: 180px;
+  height: 45px;
+  background: #17A2B8;
+  color: #FFFFFF;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  border: 2px solid #C0C0C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
