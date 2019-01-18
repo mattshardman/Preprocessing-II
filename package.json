@@ -1,0 +1,21 @@
+{
+  "name": "Preprocessing-II",
+  "version": "1.0.0",
+  "description": "Fun Bus is a travel agency looking for some help on their website.  They want a new navigation, new header, and new buttons on the home page. They also want a mobile version of their site styled.  Use your preprocessing knowledge to accomplish their tasks.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "less-watch-compiler less css index.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattshardman/Preprocessing-II.git"
+  },
+  "keywords": [],
+  "author": "Matt Hardman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattshardman/Preprocessing-II/issues"
+  },
+  "homepage": "https://github.com/mattshardman/Preprocessing-II#readme"
+}
